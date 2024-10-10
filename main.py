@@ -23,7 +23,6 @@ async def on_ready():
         https://discord.com/api/oauth2/authorize?client_id={client.user.id}&scope=applications.commands%20bot
     """), end="\n\n")
 
-
 @client.tree.command()
 async def hello(interaction: Interaction):
     """ Wow you read this? """
