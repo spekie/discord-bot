@@ -18,9 +18,9 @@ client = client(intents=Intents.none())
 async def on_ready():
     print(inspect.cleandoc(f"""
         Bot name: {client.user}
-		Bot ID: {client.user.id}
+	Bot ID: {client.user.id}
 
-		Invite link below
+	Invite link below
         https://discord.com/api/oauth2/authorize?client_id={client.user.id}&scope=applications.commands%20bot
     """), end="\n\n")
 
