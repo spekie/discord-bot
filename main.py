@@ -1,6 +1,5 @@
 import requests
 import inspect
-import sys
 
 from discord import app_commands, Intents, Client, Interaction
 
