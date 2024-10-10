@@ -32,8 +32,7 @@ async def hello(interaction: Interaction):
     print(f"> {interaction.user} used the /hello command.")
 
     await interaction.response.send_message(inspect.cleandoc(f"""
-        Hi **{interaction.user}**, this bot is still under development by the big brain, slightly lazy, extremely unpythonic developer by the name of spekies.
-	Oh yeah he also has a website at https://spekie.org so that's cool.
+        Hi **{interaction.user}**.
     """))
 
 client.run('INSERT YOUR DISCORD BOT TOKEN HERE')
