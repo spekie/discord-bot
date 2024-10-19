@@ -4,3 +4,4 @@ Simple Discord bot
 ```sh
 python -m venv path/to/venv && source path/to/venv/bin/activate && pip install discord.py requests && python ./discord-bot/main.py
 ```
+The above script assumes you have cloned this repo.
