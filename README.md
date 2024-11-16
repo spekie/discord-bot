@@ -2,7 +2,7 @@
 Simple Discord bot
 # Running this
 ```sh
-git clone https://github.com/spekies/discord-bot.git
+git clone https://github.com/spekie/discord-bot.git
 ```
 Make sure to change the last line with your respective bot token if you are running this!
 ```sh
